@@ -1,0 +1,35 @@
+.toggle {
+  width: 36px;
+  height: 20px;
+  background-color: #c8ccc7;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.toggle:hover {
+  background-color: #bcc0bb;
+}
+
+.toggleOn {
+  background-color: #9af39c;
+}
+
+.toggleOn:hover {
+  background-color: #8de58f;
+}
+
+.slider {
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.2s;
+}
+
+.toggleOn .slider {
+  transform: translateX(16px);
+}

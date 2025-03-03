@@ -1,0 +1,25 @@
+.button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+}
+
+.green {
+  background-color: #9af39c;
+  color: #1f1f1f;
+}
+
+.green:hover {
+  background-color: #8de58f;
+}
+
+.gray {
+  background-color: #c8ccc7;
+  color: #1f1f1f;
+}
+
+.gray:hover {
+  background-color: #bcc0bb;
+}
